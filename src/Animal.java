@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     private String nickName;
     private Double weight;
     private Integer age;
@@ -15,6 +15,7 @@ public class Animal {
         System.out.println("Животное идёт по земле");
     }
 
+    abstract void move();
 
     public String getNickName() {
         return nickName;
